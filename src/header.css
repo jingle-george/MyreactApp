@@ -1,0 +1,85 @@
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width:100%;
+    background-color: pink;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header ul{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.header ul li{
+    padding: 10px;
+}
+.header .link h2{
+    margin:0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ */
+
+
+
+ .header {
+
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color: burlywood;
+    width:100%;
+    
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+.header ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type:none;
+    margin:auto;
+    width: 400px;
+}
+
+.header ul li{
+    padding: 10px;
+}
+
+.header .link h2{
+    margin:0;
+}
+
+.header .link{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.college .link{
+    text-decoration: none;
+    font-size: 20px;
+    margin:10px
+}
