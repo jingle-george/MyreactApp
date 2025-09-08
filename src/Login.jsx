@@ -1,10 +1,21 @@
-function Login(){
-    return(
-        <>
+function LOGIN() {
+  
 
-        <div style={{textAlign:'center'}}></div>
-        <h1>Login Page</h1>
-        </>
-    )
+  return (
+    <div style={{textAlign:'center'}}>
+
+    <h2>Sign In</h2>
+    <form action="">
+      <label htmlFor="">UserName</label>
+      <input type="text" /><br />
+      <label htmlFor="">Password</label>
+      <input type="password"  /><br />
+      
+      <button>Sumbit</button>
+    </form>
+      
+    </div>
+  )
 }
-export default Login
+
+export default LOGIN
